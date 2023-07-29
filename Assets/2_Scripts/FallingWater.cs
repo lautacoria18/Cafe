@@ -25,8 +25,8 @@ public class FallingWater : MonoBehaviour
     public ParticleSystem coffee;
 
 
-    public void StartToVERT() {
-        newWaterOn = !newWaterOn;
+    public void StartToVERT(bool cond) {
+        newWaterOn = cond;
         
     }
 

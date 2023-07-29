@@ -57,17 +57,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\2_Scripts\Fire_Behaviour.cs" />
+    <Compile Include="Assets\2_Scripts\AudioManager.cs" />
     <Compile Include="Assets\2_Scripts\Moka.cs" />
     <Compile Include="Assets\2_Scripts\Hornalla.cs" />
     <Compile Include="Assets\Scripts\HandPresence.cs" />
     <Compile Include="Assets\2_Scripts\CoffeeParticleCollider.cs" />
     <Compile Include="Assets\2_Scripts\WaterIntoMoka.cs" />
+    <Compile Include="Assets\2_Scripts\GameConstants.cs" />
     <Compile Include="Assets\2_Scripts\UI_Manager.cs" />
+    <Compile Include="Assets\2_Scripts\LoadingScript.cs" />
     <Compile Include="Assets\2_Scripts\Filtro.cs" />
     <Compile Include="Assets\2_Scripts\Jarra.cs" />
     <Compile Include="Assets\2_Scripts\FallingWater.cs" />
     <Compile Include="Assets\2_Scripts\Cuchara_Behaviour.cs" />
     <Compile Include="Assets\2_Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\2_Scripts\Dispenser.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
