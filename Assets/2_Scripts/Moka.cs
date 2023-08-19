@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Moka : MonoBehaviour
+public class Moka : ObjectGrabable
 {
 
     public static Moka instance;
@@ -18,13 +18,20 @@ public class Moka : MonoBehaviour
     public float degrees, degrees2;
     public ParticleSystem coffee;
 
+
+ 
+
     private void Awake()
     {
+        base.Awake();
         instance = this;
         coffee.enableEmission = false;
     }
 
     public bool waterIn, filterIn, coffeeIn, jarraIn, liquidCoffeeIn;
+
+
+
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Hornalla") {

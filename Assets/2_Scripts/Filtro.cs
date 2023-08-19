@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Filtro : MonoBehaviour
+public class Filtro : ObjectGrabable
 {
 
     public GameObject newFilter;

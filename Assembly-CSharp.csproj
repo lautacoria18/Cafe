@@ -56,9 +56,11 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\2_Scripts\Taza.cs" />
     <Compile Include="Assets\2_Scripts\Fire_Behaviour.cs" />
     <Compile Include="Assets\2_Scripts\AudioManager.cs" />
     <Compile Include="Assets\2_Scripts\Moka.cs" />
+    <Compile Include="Assets\2_Scripts\ObjectGrabable.cs" />
     <Compile Include="Assets\2_Scripts\Hornalla.cs" />
     <Compile Include="Assets\Scripts\HandPresence.cs" />
     <Compile Include="Assets\2_Scripts\CoffeeParticleCollider.cs" />
@@ -68,10 +70,11 @@
     <Compile Include="Assets\2_Scripts\LoadingScript.cs" />
     <Compile Include="Assets\2_Scripts\Filtro.cs" />
     <Compile Include="Assets\2_Scripts\Jarra.cs" />
+    <Compile Include="Assets\2_Scripts\Dispenser.cs" />
+    <Compile Include="Assets\2_Scripts\Floor.cs" />
     <Compile Include="Assets\2_Scripts\FallingWater.cs" />
     <Compile Include="Assets\2_Scripts\Cuchara_Behaviour.cs" />
     <Compile Include="Assets\2_Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\2_Scripts\Dispenser.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

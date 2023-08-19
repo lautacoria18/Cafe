@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Jarra : MonoBehaviour
+public class Jarra : ObjectGrabable
 {
     public GameObject newFilter, oldAttach, coffeeDummy;
     private void OnTriggerStay(Collider other)

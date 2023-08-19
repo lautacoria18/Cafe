@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cuchara_Behaviour : MonoBehaviour
+public class Cuchara_Behaviour : ObjectGrabable
 {
     public GameObject cafe;
     public GameObject cafeBowl1, cafeBowl2, cafeBowl3, cafeBowl4;
